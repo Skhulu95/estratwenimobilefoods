@@ -4,27 +4,41 @@ import Ripples from "react-ripples";
 
 const Navbar = () => {
     return (
-        <div className="container-fluid info p-3" id="top-icons">
+			<div className="container-fluid info p-3" id="top-icons">
 				<div className="row">
-						<div className="col d-flex justify-content-between align-items-baseline flex-wrap">
-							<div className="info-icons p-2">
-							<a href="https://www.facebook.com/Mobilefoodscc/" className="mr-2 primary-color">
+					<div className="col d-flex justify-content-between align-items-baseline flex-wrap">
+						<a class="navbar-brand" href="#Navbar">
+							<img
+								src="/img/logo.jpg"
+								style={({ width: "150px" }, { height: "150px" })}
+							/>
+						</a>
+						<div className="info-icons p-2">
+							<a
+								href="https://www.facebook.com/Mobilefoodscc/"
+								className="mr-2 primary-color"
+							>
 								<i className="fab fa-facebook fa-2x"></i>
 							</a>
-							<a href="https://www.instagram.com/estratwenimobilefoods/?hl=en" className="mr-2 primary-color">
+							<a
+								href="https://www.instagram.com/estratwenimobilefoods/?hl=en"
+								className="mr-2 primary-color"
+							>
 								<i className="fab fa-instagram fa-2x"></i>
 							</a>
-							<a href="https://twitter.com/explore" className="mr-2 primary-color">
+							<a
+								href="https://twitter.com/explore"
+								className="mr-2 primary-color"
+							>
 								<i className="fab fa-twitter fa-2x"></i>
 							</a>
-							</div>
-
-							<h2 className="primary-color p-2 text-capitalize">
-								1461 Sakhwatsha St, Browns Farms, Cape Town, 7750
-							</h2>
 						</div>
+
+						<h2 className="primary-color p-2 text-capitalize">
+							1461 Sakhwatsha St, Browns Farms, Cape Town, 7750
+						</h2>
 					</div>
-				
+				</div>
 
 				<header id="header">
 					<div className="container">
@@ -46,7 +60,7 @@ const Navbar = () => {
 						</div>
 					</div>
 
-					<a href="#special-items" className="btn header-link primary-color">
+					<a href="#menu" className="btn header-link primary-color">
 						<i className="fas fa-arrow-down"></i>
 					</a>
 				</header>
@@ -71,12 +85,6 @@ const Navbar = () => {
 					{/* <!-- links --> */}
 					<div className="collapse navbar-collapse" id="myNavbar">
 						<ul className="navbar-nav mx-auto">
-							<li className="nav-item">
-								<a href="#special-items" className="nav-link text-capitalize">
-									special items
-								</a>
-							</li>
-
 							<li className="nav-item">
 								<a href="#menu" className="nav-link text-capitalize">
 									menu
@@ -108,16 +116,22 @@ const Navbar = () => {
 							</li>
 						</ul>
 						<form className="form-inline d-none d-lg-block mr-5">
-							<button className="btn nav-btn text-capitalize" type="button">
-								order online
-							</button>
+							<a href="#cart">
+								<button
+									className="btn nav-btn text-capitalize"
+									href="#cart"
+									type="button"
+								>
+									cart
+								</button>
+							</a>
 						</form>
 					</div>
 				</nav>
 
-			{/* <!-- end of navbar --> */}
-		</div>
-    )
+				{/* <!-- end of navbar --> */}
+			</div>
+		);
 }
 
 export default Navbar

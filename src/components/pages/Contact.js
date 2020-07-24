@@ -23,11 +23,11 @@ const Contact = () => {
 								</div>
 							</div>
 							<div className="col-md-6 my-3 align-self-center">
-								<div className="card text-center">
+								<div className="cards text-center">
 									<div className="card-header text-uppercase">
 										<h1 className="text-uppercase">contact us</h1>
 									</div>
-									<div className="card-body">
+									<div className="cards-body">
 										<form action="https://formspree.io/mvowwqvl" method="POST">
 											{/* <!-- input group --> */}
 											<div className="input-group my-3">

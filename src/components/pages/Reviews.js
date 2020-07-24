@@ -23,12 +23,11 @@ const Reviews = () => {
 											</div>
 											{/* <!-- text --> */}
 											<div className="review-text px-5">
-												<h2 className="text-capitalize mb-3 primary-color">
-													customer name
+												<h2 className="text-capitalize mb-3 secondary-color">
+													okuhle pele
 												</h2>
 												<p className="lead text-dark">
-													Lorem ipsum dolor sit amet consectetur adipisicing
-													elit. Reprehenderit, animi.
+													The food tastes good 😍😍 Thank you so much Great food
 												</p>
 											</div>
 										</div>
@@ -51,12 +50,15 @@ const Reviews = () => {
 											</div>
 											{/* <!-- text --> */}
 											<div className="review-text px-5">
-												<h2 className="text-capitalize mb-3 primary-color">
-													customer name
+												<h2 className="text-capitalize mb-3 secondary-color">
+													yomi papu
 												</h2>
 												<p className="lead text-muted">
-													Lorem ipsum dolor sit amet consectetur adipisicing
-													elit. Reprehenderit, animi.
+													I'm actually please with the service they provide. To
+													be quite honest, when I rock up there; one is welcomed
+													with great respect and actually you get great value
+													for your money. Extremely recommend Estratweni Mobile
+													Foods to cater for you
 												</p>
 											</div>
 										</div>
@@ -79,12 +81,13 @@ const Reviews = () => {
 											</div>
 											{/* <!-- text --> */}
 											<div className="review-text px-5">
-												<h2 className="text-capitalize mb-3 primary-color">
-													customer name
+												<h2 className="text-capitalize mb-3 secondary-color">
+													khanyisa nqato
 												</h2>
 												<p className="lead text-muted">
-													Lorem ipsum dolor sit amet consectetur adipisicing
-													elit. Reprehenderit, animi.
+													I must say, you guys make the most mouthwatering fine
+													foods ever. I'm personally the biggest FAN of tiro for
+													making the BEST JAHA EVER 👏💖. Best brunch
 												</p>
 											</div>
 										</div>

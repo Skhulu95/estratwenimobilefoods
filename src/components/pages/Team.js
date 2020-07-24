@@ -11,7 +11,12 @@ const Team = () => {
 							{/* <!-- team member--> */}
 							<div className="col-9 col-sm-6 col-lg-4 mx-auto my-4">
 								<div className="card">
-									<img src="img/team1.jpg" alt="" className="card-img-top" />
+									<img
+										src="img/team1.jpg"
+										alt=""
+										className="card-img-top"
+										style={({ width: "300px" }, { height: "300px" })}
+									/>
 									<div className="card-body">
 										<div className="card-title">
 											<h1 className="text-capitalize">blax</h1>
@@ -35,7 +40,12 @@ const Team = () => {
 					            <!-- team member--> */}
 							<div className="col-9 col-sm-6 col-lg-4 mx-auto my-4">
 								<div className="card">
-									<img src="img/team2.jpg" alt="" className="card-img-top" />
+									<img
+										src="img/team2.jpg"
+										alt=""
+										className="card-img-top"
+										style={({ width: "300px" }, { height: "300px" })}
+									/>
 									<div className="card-body">
 										<div className="card-title">
 											<h1 className="text-capitalize">space</h1>
@@ -59,7 +69,12 @@ const Team = () => {
 					            <!-- team member--> */}
 							<div className="col-9 col-sm-6 col-lg-4 mx-auto my-4">
 								<div className="card">
-									<img src="img/team3.jpg" alt="" className="card-img-top" />
+									<img
+										src="img/team3.jpg"
+										alt=""
+										className="card-img-top"
+										style={({ width: "300px" }, { height: "300px" })}
+									/>
 									<div className="card-body">
 										<div className="card-title">
 											<h1 className="text-capitalize">bahle</h1>
