@@ -1,7 +1,13 @@
 // eslint-disable-next-line
 import React from "react";
+// eslint-disable-next-line
+import cartJs from '../../js/cartJs';
 
+function timedRefresh(timeoutPeriod) {
+	setTimeout("location.reload(true);", timeoutPeriod);
+}
 
+window.onload = timedRefresh(10000);
 
 const Cart = () => {
 	return (
@@ -23,6 +29,7 @@ const Cart = () => {
 									<form>
 										<fieldset>
 											<button id="ClearButton">Clear All Cart Items</button>
+											
 											<div class="form-group">
 												<label for="TextInput">
 													Enter Promo Code for Discount

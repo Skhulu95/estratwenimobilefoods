@@ -413,7 +413,9 @@ info a:hover {
   width: device-width ;
   zoom: 1.0 ;
 }
-
+.modal img{
+	width: 320px;
+}
 .card{
 	border: none;
 }
@@ -443,55 +445,3 @@ info a:hover {
 	background-color: #e77728;
 }
 
-/* ------ Cart ------ */
-#Cart{
-	padding-top: 115px;
-	min-height: 100vh;
-	font-weight: bold;
-	text-shadow: 2px 2px 8px #ffffffff;
-	max-width: 1000px;
-}
-
-#CartContent{
-	background-color: #ffffffff;
-	padding: 20px;
-}
-
-#Cart h1{
-	font-size: 50px;
-	color: #ffffffff;
-	text-shadow: 2px 2px 8px #000000;
-}
-
-#Cart input{
-	width: 220px;
-}
-
-#Cart select{
-	width: 220px;
-}
-
-#Cart table{
-	max-width: 95vw;
-	background-color: #ffffffff;
-}
-
-#Cart table img{
-	width: 10vw;
-}
-
-#Cart button{
-	margin-top: 5px;
-	font-family: 'Signika', sans-serif;
-	text-transform: uppercase;
-	color: #ffffffff;
-	background-color: #148268;
-	border: none;
-	padding: 5px 10px;
-	border-radius: 5px;
-	box-shadow: 2px 2px 8px #808080;
-}
-
-#FormDiv #ClearButton{
-	margin-bottom: 15px;
-}

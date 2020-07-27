@@ -32,47 +32,44 @@ const Menu = () => {
 									<br></br>
 									<h4>ZAR 25.00</h4>
 									<br></br>
-									{/* Button trigger modal */}
+									{/* <!-- Button to Open the Modal --> */}
 									<button
 										type="button"
-										className="btn MoreInfo"
+										class="btn btn-primary"
 										data-toggle="modal"
-										data-target="#Menu1"
+										data-target="#myModal"
 									>
 										More Info
 									</button>
+
 									<button
 										id="CartButton1"
 										type="button"
 										className="btn MoreInfo cardButton"
+										
 									>
 										Add To Cart
 									</button>
-									{/* Modal */}
-									<div
-										className="modal"
-										id="menu1"
-										tabindex="-1"
-										role="dialog"
-										aria-labelledby="Menu1Label"
-										aria-hidden="true"
-									>
-										<div className="modal-dialog" role="document">
-											<div className="modal-content">
-												<div className="modal-header">
-													<h5 className="modal-title" id="Menu1Label">
-														Burger & Chips
-													</h5>
+
+									{/* 
+									<!-- The Modal --> */}
+									<div class="modal fade" id="myModal">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												{/* <!-- Modal Header --> */}
+												<div class="modal-header">
+													<h4 class="modal-title">Burger & Chips</h4>
 													<button
 														type="button"
-														className="close"
+														class="close"
 														data-dismiss="modal"
-														aria-label="Close"
 													>
-														<span aria-hidden="true">×</span>
+														&times;
 													</button>
 												</div>
-												<div className="modal-body">
+
+												{/* <!-- Modal body --> */}
+												<div class="modal-body">
 													<img
 														className="ModalImage"
 														src="img/menu-item-1.jpg"
@@ -82,8 +79,18 @@ const Menu = () => {
 														Beef burger with tomato, lettuce, cucumber, onions
 														and chips.
 													</h4>
+												</div>
 
+												{/* <!-- Modal footer --> */}
+												<div class="modal-footer">
 													<h4>ZAR 25.00</h4>
+													<button
+														type="button"
+														class="btn btn-secondary"
+														data-dismiss="modal"
+													>
+														Close
+													</button>
 												</div>
 											</div>
 										</div>
@@ -111,14 +118,17 @@ const Menu = () => {
 									<br></br>
 									<h4>ZAR 25.00</h4>
 									<br></br>
+
+									{/* <!-- Button to Open the Modal --> */}
 									<button
 										type="button"
-										className="btn MoreInfo"
+										class="btn btn-primary"
 										data-toggle="modal"
-										data-target="#Menu1"
+										data-target="#myModal2"
 									>
 										More Info
 									</button>
+
 									<button
 										id="CartButton2"
 										type="button"
@@ -126,30 +136,26 @@ const Menu = () => {
 									>
 										Add To Cart
 									</button>
-									<div
-										className="modal"
-										id="Menu1"
-										tabindex="-1"
-										role="dialog"
-										aria-labelledby="Menu1Label"
-										aria-hidden="true"
-									>
-										<div className="modal-dialog" role="document">
-											<div className="modal-content">
-												<div className="modal-header">
-													<h5 className="modal-title" id="Menu1Label">
-														Quarter Chicken & Chips
-													</h5>
+
+									{/* 
+									<!-- The Modal --> */}
+									<div class="modal fade" id="myModal2">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												{/* <!-- Modal Header --> */}
+												<div class="modal-header">
+													<h4 class="modal-title">Quarter Chicken & Chips</h4>
 													<button
 														type="button"
-														className="close"
+														class="close"
 														data-dismiss="modal"
-														aria-label="Close"
 													>
-														<span aria-hidden="true">×</span>
+														&times;
 													</button>
 												</div>
-												<div className="modal-body">
+
+												{/* <!-- Modal body --> */}
+												<div class="modal-body">
 													<img
 														className="ModalImage"
 														src="img/menu-item-2.jpg"
@@ -159,8 +165,18 @@ const Menu = () => {
 														Grilled quarter chicken with chips and our special
 														sauce.
 													</h4>
+												</div>
 
+												{/* <!-- Modal footer --> */}
+												<div class="modal-footer">
 													<h4>ZAR 25.00</h4>
+													<button
+														type="button"
+														class="btn btn-secondary"
+														data-dismiss="modal"
+													>
+														Close
+													</button>
 												</div>
 											</div>
 										</div>
@@ -188,14 +204,16 @@ const Menu = () => {
 									<br></br>
 									<h4>Zar 35.00</h4>
 									<br></br>
+									{/* <!-- Button to Open the Modal --> */}
 									<button
 										type="button"
-										className="btn MoreInfo"
+										class="btn btn-primary"
 										data-toggle="modal"
-										data-target="#Menu1"
+										data-target="#myModal3"
 									>
 										More Info
 									</button>
+
 									<button
 										id="CartButton3"
 										type="button"
@@ -203,30 +221,26 @@ const Menu = () => {
 									>
 										Add To Cart
 									</button>
-									<div
-										className="modal"
-										id="Menu1"
-										tabindex="-1"
-										role="dialog"
-										aria-labelledby="Menu1Label"
-										aria-hidden="true"
-									>
-										<div className="modal-dialog" role="document">
-											<div className="modal-content">
-												<div className="modal-header">
-													<h5 className="modal-title" id="Menu1Label">
-														Double Beef Burger
-													</h5>
+
+									{/* 
+									<!-- The Modal --> */}
+									<div class="modal fade" id="myModal3">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												{/* <!-- Modal Header --> */}
+												<div class="modal-header">
+													<h4 class="modal-title">Double Beef Burger</h4>
 													<button
 														type="button"
-														className="close"
+														class="close"
 														data-dismiss="modal"
-														aria-label="Close"
 													>
-														<span aria-hidden="true">×</span>
+														&times;
 													</button>
 												</div>
-												<div className="modal-body">
+
+												{/* <!-- Modal body --> */}
+												<div class="modal-body">
 													<img
 														className="ModalImage"
 														src="img/menu-item-3.jpg"
@@ -236,8 +250,18 @@ const Menu = () => {
 														Double beef burger with tomato, lettuce, cucumber,
 														onions and chips.
 													</h4>
+												</div>
 
+												{/* <!-- Modal footer --> */}
+												<div class="modal-footer">
 													<h4>ZAR 35.00</h4>
+													<button
+														type="button"
+														class="btn btn-secondary"
+														data-dismiss="modal"
+													>
+														Close
+													</button>
 												</div>
 											</div>
 										</div>
@@ -266,14 +290,16 @@ const Menu = () => {
 									<br></br>
 									<h4>ZAR 30.00</h4>
 									<br></br>
+									{/* <!-- Button to Open the Modal --> */}
 									<button
 										type="button"
-										className="btn MoreInfo"
+										class="btn btn-primary"
 										data-toggle="modal"
-										data-target="#Menu1"
+										data-target="#myModal4"
 									>
 										More Info
 									</button>
+
 									<button
 										id="CartButton4"
 										type="button"
@@ -281,30 +307,26 @@ const Menu = () => {
 									>
 										Add To Cart
 									</button>
-									<div
-										className="modal"
-										id="Menu1"
-										tabindex="-1"
-										role="dialog"
-										aria-labelledby="Menu1Label"
-										aria-hidden="true"
-									>
-										<div className="modal-dialog" role="document">
-											<div className="modal-content">
-												<div className="modal-header">
-													<h5 className="modal-title" id="MenuLabel">
-														Jaha
-													</h5>
+
+									{/* 
+									<!-- The Modal --> */}
+									<div class="modal fade" id="myModal4">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												{/* <!-- Modal Header --> */}
+												<div class="modal-header">
+													<h4 class="modal-title">Jaha</h4>
 													<button
 														type="button"
-														className="close"
+														class="close"
 														data-dismiss="modal"
-														aria-label="Close"
 													>
-														<span aria-hidden="true">×</span>
+														&times;
 													</button>
 												</div>
-												<div className="modal-body">
+
+												{/* <!-- Modal body --> */}
+												<div class="modal-body">
 													<img
 														className="ModalImage"
 														src="img/menu-item-4.jpg"
@@ -314,8 +336,18 @@ const Menu = () => {
 														Roll with diced meat (beef and sausage) with onions,
 														cucumber and chips on the side.
 													</h4>
+												</div>
 
-													<h4>Zar 30.00</h4>
+												{/* <!-- Modal footer --> */}
+												<div class="modal-footer">
+													<h4>ZAR 30.00</h4>
+													<button
+														type="button"
+														class="btn btn-secondary"
+														data-dismiss="modal"
+													>
+														Close
+													</button>
 												</div>
 											</div>
 										</div>
@@ -343,15 +375,16 @@ const Menu = () => {
 									<br></br>
 									<h4>ZAR 25.00</h4>
 									<br></br>
-									{/* <!--Button trigger modal--> */}
+									{/* <!-- Button to Open the Modal --> */}
 									<button
 										type="button"
-										className="btn MoreInfo"
+										class="btn btn-primary"
 										data-toggle="modal"
-										data-target="#Menu1"
+										data-target="#myModal5"
 									>
 										More Info
 									</button>
+
 									<button
 										id="CartButton5"
 										type="button"
@@ -359,34 +392,45 @@ const Menu = () => {
 									>
 										Add To Cart
 									</button>
-									<div
-										className="modal"
-										id="Menu1"
-										tabindex="-1"
-										role="dialog"
-										aria-labelledby="Menu1Label"
-										aria-hidden="true"
-									>
-										<div className="modal-dialog" role="document">
-											<div className="modal-content">
-												<h5 className="modal-title" id="Menu1Label">
-													Nuggets & Chips
-												</h5>
-												<button
-													type="button"
-													className="close"
-													data-dismiss="modal"
-													aria-label="Close"
-												>
-													<span aria-hidden="true">×</span>
-												</button>
-											</div>
-											<div className="modal-body">
-												<img className="ModalImage" src="img/menu-item-5.jpg" />
-												<br></br>
-												<h4>Delicious fried chicken nuggets with chips.</h4>
 
-												<h4>ZAR 25.00</h4>
+									{/* 
+									<!-- The Modal --> */}
+									<div class="modal fade" id="myModal5">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												{/* <!-- Modal Header --> */}
+												<div class="modal-header">
+													<h4 class="modal-title">Nuggets & Chips</h4>
+													<button
+														type="button"
+														class="close"
+														data-dismiss="modal"
+													>
+														&times;
+													</button>
+												</div>
+
+												{/* <!-- Modal body --> */}
+												<div class="modal-body">
+													<img
+														className="ModalImage"
+														src="img/menu-item-5.jpg"
+													/>
+													<br></br>
+													<h4>Delicious fried chicken nuggets with chips.</h4>
+												</div>
+
+												{/* <!-- Modal footer --> */}
+												<div class="modal-footer">
+													<h4>ZAR 25.00</h4>
+													<button
+														type="button"
+														class="btn btn-secondary"
+														data-dismiss="modal"
+													>
+														Close
+													</button>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -414,14 +458,16 @@ const Menu = () => {
 									<br></br>
 									<h4>ZAR 25.00</h4>
 									<br></br>
+									{/* <!-- Button to Open the Modal --> */}
 									<button
 										type="button"
-										className="btn MoreInfo"
+										class="btn btn-primary"
 										data-toggle="modal"
-										data-target="#Menu1"
+										data-target="#myModal6"
 									>
 										More Info
 									</button>
+
 									<button
 										id="CartButton6"
 										type="button"
@@ -429,38 +475,44 @@ const Menu = () => {
 									>
 										Add To Cart
 									</button>
-									<div
-										className="modal"
-										id="Menu1"
-										tabindex="-1"
-										role="dialog"
-										aria-labelledby="Menu1Label"
-										aria-hidden="true"
-									>
-										<div className="modal-dialog" role="document">
-											<div className="modal-content">
-												<div className="modal-header">
-													<h5 className="modal-title" id="Menu1Label">
-														Wings
-													</h5>
+
+									{/* 
+									<!-- The Modal --> */}
+									<div class="modal fade" id="myModal6">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												{/* <!-- Modal Header --> */}
+												<div class="modal-header">
+													<h4 class="modal-title">Wings</h4>
 													<button
 														type="button"
-														className="close"
+														class="close"
 														data-dismiss="modal"
-														aria-label="Close"
 													>
-														<span aria-hidden="true">×</span>
+														&times;
 													</button>
 												</div>
-												<div className="modal-body">
+
+												{/* <!-- Modal body --> */}
+												<div class="modal-body">
 													<img
 														className="ModalImage"
 														src="img/menu-item-6.jpg"
 													/>
 													<br></br>
 													<h4>Six grilled chicken wings.</h4>
+												</div>
 
+												{/* <!-- Modal footer --> */}
+												<div class="modal-footer">
 													<h4>ZAR 25.00</h4>
+													<button
+														type="button"
+														class="btn btn-secondary"
+														data-dismiss="modal"
+													>
+														Close
+													</button>
 												</div>
 											</div>
 										</div>
@@ -489,14 +541,16 @@ const Menu = () => {
 									<br></br>
 									<h4>ZAR 115.00</h4>
 									<br></br>
+									{/* <!-- Button to Open the Modal --> */}
 									<button
 										type="button"
-										className="btn MoreInfo"
+										class="btn btn-primary"
 										data-toggle="modal"
-										data-target="#Menu1"
+										data-target="#myModal7"
 									>
 										More Info
 									</button>
+
 									<button
 										id="CartButton7"
 										type="button"
@@ -504,40 +558,47 @@ const Menu = () => {
 									>
 										Add To Cart
 									</button>
-									<div
-										className="modal"
-										id="Menu1"
-										tabindex="-1"
-										role="dialog"
-										aria-labelledby="Menu1Label"
-										aria-hidden="true"
-									>
-										<div className="modal-dialog" role="document">
-											<div className="modal-content">
-												<div className="modal-header">
-													<h5 className="modal-title" id="Menu1Label">
-														2-by-2 Platter
-													</h5>
+
+									{/* 
+									<!-- The Modal --> */}
+									<div class="modal fade" id="myModal7">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												{/* <!-- Modal Header --> */}
+												<div class="modal-header">
+													<h4 class="modal-title">2-by-2 Platter</h4>
 													<button
 														type="button"
-														className="close"
+														class="close"
 														data-dismiss="modal"
-														aria-label="Close"
 													>
-														<span aria-hidden="true">×</span>
+														&times;
 													</button>
 												</div>
-												<div className="modal-body">
+
+												{/* <!-- Modal body --> */}
+												<div class="modal-body">
 													<img
 														className="ModalImage"
 														src="img/menu-item-7.jpg"
 													/>
+													<br></br>
 													<h4>
 														Amazing platter for two, with 2 quarter chicken, 6
 														nuggets, salad and chips.
 													</h4>
+												</div>
 
+												{/* <!-- Modal footer --> */}
+												<div class="modal-footer">
 													<h4>ZAR 115.00</h4>
+													<button
+														type="button"
+														class="btn btn-secondary"
+														data-dismiss="modal"
+													>
+														Close
+													</button>
 												</div>
 											</div>
 										</div>
@@ -565,14 +626,16 @@ const Menu = () => {
 									<br></br>
 									<h4>ZAR 80.00</h4>
 									<br></br>
+									{/* <!-- Button to Open the Modal --> */}
 									<button
 										type="button"
-										className="btn MoreInfo"
+										class="btn btn-primary"
 										data-toggle="modal"
-										data-target="#Menu1"
+										data-target="#myModal8"
 									>
 										More Info
 									</button>
+
 									<button
 										id="CartButton8"
 										type="button"
@@ -580,40 +643,47 @@ const Menu = () => {
 									>
 										Add To Cart
 									</button>
-									<div
-										className="modal"
-										id="Menu1"
-										tabindex="-1"
-										role="dialog"
-										aria-labelledby="Menu1Label"
-										aria-hidden="true"
-									>
-										<div className="modal-dialog" role="document">
-											<div className="modal-content">
-												<div className="modal-header">
-													<h5 className="modal-title" id="Menu1Label">
-														Tough-Guy Special
-													</h5>
+
+									{/* 
+									<!-- The Modal --> */}
+									<div class="modal fade" id="myModal8">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												{/* <!-- Modal Header --> */}
+												<div class="modal-header">
+													<h4 class="modal-title">Tough-Guy Special</h4>
 													<button
 														type="button"
-														className="close"
+														class="close"
 														data-dismiss="modal"
-														aria-label="Close"
 													>
-														<span aria-hidden="true">×</span>
+														&times;
 													</button>
 												</div>
-												<div className="modal-body">
+
+												{/* <!-- Modal body --> */}
+												<div class="modal-body">
 													<img
 														className="ModalImage"
 														src="img/menu-item-8.jpg"
 													/>
+													<br></br>
 													<h4>
 														Tough-Guy Special includes 1 Beef Burger, 1
 														Boerewors Roll
 													</h4>
+												</div>
 
+												{/* <!-- Modal footer --> */}
+												<div class="modal-footer">
 													<h4>ZAR 80.00</h4>
+													<button
+														type="button"
+														class="btn btn-secondary"
+														data-dismiss="modal"
+													>
+														Close
+													</button>
 												</div>
 											</div>
 										</div>
@@ -641,14 +711,16 @@ const Menu = () => {
 									<br></br>
 									<h4>ZAR 115.00</h4>
 									<br></br>
+									{/* <!-- Button to Open the Modal --> */}
 									<button
 										type="button"
-										className="btn MoreInfo"
+										class="btn btn-primary"
 										data-toggle="modal"
-										data-target="#Menu1"
+										data-target="#myModal9"
 									>
 										More Info
 									</button>
+
 									<button
 										id="CartButton9"
 										type="button"
@@ -656,40 +728,47 @@ const Menu = () => {
 									>
 										Add To Cart
 									</button>
-									<div
-										className="modal"
-										id="Menu1"
-										tabindex="-1"
-										role="dialog"
-										aria-labelledby="Menu1Label"
-										aria-hidden="true"
-									>
-										<div className="modal-dialog" role="document">
-											<div className="modal-content">
-												<div className="modal-header">
-													<h5 className="modal-title" id="Menu1Label">
-														Special Platter
-													</h5>
+
+									{/* 
+									<!-- The Modal --> */}
+									<div class="modal fade" id="myModal9">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												{/* <!-- Modal Header --> */}
+												<div class="modal-header">
+													<h4 class="modal-title">Special Platter</h4>
 													<button
 														type="button"
-														className="close"
+														class="close"
 														data-dismiss="modal"
-														aria-label="Close"
 													>
-														<span aria-hidden="true">×</span>
+														&times;
 													</button>
 												</div>
-												<div className="modal-body">
+
+												{/* <!-- Modal body --> */}
+												<div class="modal-body">
 													<img
 														className="ModalImage"
 														src="img/menu-item-9.jpg"
 													/>
+													<br></br>
 													<h4>
 														Platter for two with 6 wings, 6 nuggets, salad,
 														special sauce and chips
 													</h4>
+												</div>
 
+												{/* <!-- Modal footer --> */}
+												<div class="modal-footer">
 													<h4>ZAR 115.00</h4>
+													<button
+														type="button"
+														class="btn btn-secondary"
+														data-dismiss="modal"
+													>
+														Close
+													</button>
 												</div>
 											</div>
 										</div>
@@ -717,14 +796,16 @@ const Menu = () => {
 									<br></br>
 									<h4>ZAR 160.00</h4>
 									<br></br>
+									{/* <!-- Button to Open the Modal --> */}
 									<button
 										type="button"
-										className="btn MoreInfo"
+										class="btn btn-primary"
 										data-toggle="modal"
-										data-target="#Menu1"
+										data-target="#myModal10"
 									>
 										More Info
 									</button>
+
 									<button
 										id="CartButton10"
 										type="button"
@@ -732,41 +813,48 @@ const Menu = () => {
 									>
 										Add To Cart
 									</button>
-									<div
-										className="modal"
-										id="Menu1"
-										tabindex="-1"
-										role="dialog"
-										aria-labelledby="Menu1Label"
-										aria-hidden="true"
-									>
-										<div className="modal-dialog" role="document">
-											<div className="modal-content">
-												<div className="modal-header">
-													<h5 className="modal-title" id="Menu1Label">
-														Quarantine Special
-													</h5>
+
+									{/* 
+									<!-- The Modal --> */}
+									<div class="modal fade" id="myModal10">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												{/* <!-- Modal Header --> */}
+												<div class="modal-header">
+													<h4 class="modal-title">Quarantine Special</h4>
 													<button
 														type="button"
-														className="close"
+														class="close"
 														data-dismiss="modal"
-														aria-label="Close"
 													>
-														<span aria-hidden="true">×</span>
+														&times;
 													</button>
 												</div>
-												<div className="modal-body">
+
+												{/* <!-- Modal body --> */}
+												<div class="modal-body">
 													<img
 														className="ModalImage"
 														src="img/menu-item-10.jpg"
 													/>
+													<br></br>
 													<h4>
 														Platter for two with 2 quarter chickens, 2 beef
 														burger, 2 boerewors rolls, salad, special sauce and
 														chips.
 													</h4>
+												</div>
 
+												{/* <!-- Modal footer --> */}
+												<div class="modal-footer">
 													<h4>ZAR 160.00</h4>
+													<button
+														type="button"
+														class="btn btn-secondary"
+														data-dismiss="modal"
+													>
+														Close
+													</button>
 												</div>
 											</div>
 										</div>
@@ -794,14 +882,17 @@ const Menu = () => {
 									<br></br>
 									<h4>ZAR 200.00</h4>
 									<br></br>
+
+									{/* <!-- Button to Open the Modal --> */}
 									<button
 										type="button"
-										className="btn MoreInfo"
+										class="btn btn-primary"
 										data-toggle="modal"
-										data-target="#Menu1"
+										data-target="#myModal11"
 									>
 										More Info
 									</button>
+
 									<button
 										id="CartButton11"
 										type="button"
@@ -809,40 +900,47 @@ const Menu = () => {
 									>
 										Add To Cart
 									</button>
-									<div
-										className="modal"
-										id="Menu1"
-										tabindex="-1"
-										role="dialog"
-										aria-labelledby="Menu1Label"
-										aria-hidden="true"
-									>
-										<div className="modal-dialog" role="document">
-											<div className="modal-content">
-												<div className="modal-header">
-													<h5 className="modal-title" id="Menu1Label">
-														Mighty-Meatiness
-													</h5>
+
+									{/* 
+									<!-- The Modal --> */}
+									<div class="modal fade" id="myModal11">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												{/* <!-- Modal Header --> */}
+												<div class="modal-header">
+													<h4 class="modal-title">Mighty-Meatiness</h4>
 													<button
 														type="button"
-														className="close"
+														class="close"
 														data-dismiss="modal"
-														aria-label="Close"
 													>
-														<span aria-hidden="true">×</span>
+														&times;
 													</button>
 												</div>
-												<div className="modal-body">
+
+												{/* <!-- Modal body --> */}
+												<div class="modal-body">
 													<img
 														className="ModalImage"
 														src="img/menu-item-11.jpg"
 													/>
+													<br></br>
 													<h4>
 														Meaty platter with various types of sliced meat,
 														including beef, pork, russian and chicken
 													</h4>
+												</div>
 
+												{/* <!-- Modal footer --> */}
+												<div class="modal-footer">
 													<h4>ZAR 200.00</h4>
+													<button
+														type="button"
+														class="btn btn-secondary"
+														data-dismiss="modal"
+													>
+														Close
+													</button>
 												</div>
 											</div>
 										</div>
@@ -870,14 +968,16 @@ const Menu = () => {
 									<br></br>
 									<h4>ZAR 10.00</h4>
 									<br></br>
+									{/* <!-- Button to Open the Modal --> */}
 									<button
 										type="button"
-										className="btn MoreInfo"
+										class="btn btn-primary"
 										data-toggle="modal"
-										data-target="#Menu1"
+										data-target="#myModal12"
 									>
 										More Info
 									</button>
+
 									<button
 										id="CartButton12"
 										type="button"
@@ -885,40 +985,47 @@ const Menu = () => {
 									>
 										Add To Cart
 									</button>
-									<div
-										className="modal"
-										id="Menu1"
-										tabindex="-1"
-										role="dialog"
-										aria-labelledby="Menu1Label"
-										aria-hidden="true"
-									>
-										<div className="modal-dialog" role="document">
-											<div className="modal-content">
-												<div className="modal-header">
-													<h5 className="modal-title" id="Menu1Label">
-														Smash
-													</h5>
+
+									{/* 
+									<!-- The Modal --> */}
+									<div class="modal fade" id="myModal12">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												{/* <!-- Modal Header --> */}
+												<div class="modal-header">
+													<h4 class="modal-title">Smash</h4>
 													<button
 														type="button"
-														className="close"
+														class="close"
 														data-dismiss="modal"
-														aria-label="Close"
 													>
-														<span aria-hidden="true">×</span>
+														&times;
 													</button>
 												</div>
-												<div className="modal-body">
+
+												{/* <!-- Modal body --> */}
+												<div class="modal-body">
 													<img
 														className="ModalImage"
 														src="img/menu-item-12.jpg"
 													/>
+													<br></br>
 													<h4>
 														Introducing our delicious cold beverage, best served
 														chilled.
 													</h4>
+												</div>
 
+												{/* <!-- Modal footer --> */}
+												<div class="modal-footer">
 													<h4>ZAR 10.00</h4>
+													<button
+														type="button"
+														class="btn btn-secondary"
+														data-dismiss="modal"
+													>
+														Close
+													</button>
 												</div>
 											</div>
 										</div>
