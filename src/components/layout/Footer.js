@@ -1,11 +1,15 @@
 /*eslint-disable*/
 import React from 'react';
+import '../../App.css';
 
 const Footer = () => {
     return (
 			<div>
 				{/*<!-- footer --> */}
 				<div className="container-fluid info p-3">
+					<a href="#top-icons" id="back-to-top" className="p-1">
+						<i className="fas fa-arrow-up primary-color fa-3x"></i>
+					</a>
 					<div className="row">
 						<div className="col d-flex justify-content-between align-items-baseline flex-wrap">
 							<div className="info-icons p-2">
@@ -27,15 +31,11 @@ const Footer = () => {
 								>
 									<i className="fab fa-twitter fa-2x"></i>
 								</a>
-								
 							</div>
 
 							<h2 className="primary-color p-2 text-uppercase">
 								&copy; 2020 Created by Thabiso Klip
 							</h2>
-							<a href="#top-icons" id="back-to-top" className="p-1">
-								<i className="fas fa-arrow-up primary-color fa-3x"></i>
-							</a>
 						</div>
 					</div>
 				</div>

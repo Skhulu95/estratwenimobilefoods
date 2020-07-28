@@ -1,4 +1,7 @@
+const $ = window.$;
+
 /*eslint no-unused-expressions: 2*/
+
 
 /**
  * jQuery Ripples plugin v0.6.3 / https://github.com/sirxemic/jquery.ripples

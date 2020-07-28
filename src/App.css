@@ -18,6 +18,10 @@ body {
 	color: #e77728;
 }
 
+.color-color {
+	color: whitesmoke;
+}
+
 .info h2 {
 	word-spacing: 0.6rem;
 }
@@ -401,6 +405,14 @@ info a:hover {
 	border-color: #c9c1ac;
 }
 
+#contact {
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.7),
+			rgba(255, 255, 255, 0.7)
+		),
+		url(./components/img/itembackground_2.jpg) center/cover fixed no-repeat;
+}
+
 /* footer */
 #back-to-top {
 	background: #c9c1ac;
@@ -452,56 +464,3 @@ info a:hover {
 }
 
 
-/* <!------ Cart ------ !> */
-#Cart{
-	padding-top: 115px;
-	min-height: 100vh;
-	font-weight: bold;
-	text-shadow: 2px 2px 8px black;
-	max-width: 1000px;
-}
-
-#CartContent{
-	background-color: #e77728;
-	padding: 20px;
-}
-
-#Cart h1{
-	font-size: 50px;
-	color: black;
-	text-shadow: 2px 2px 8px #e77728;
-}
-
-#Cart input{
-	width: 220px;
-}
-
-#Cart select{
-	width: 220px;
-}
-
-#Cart table{
-	max-width: 95vw;
-	background-color: #ffffffff;
-}
-
-#Cart table img{
-	width: 30px;
-	height: 30px;
-}
-
-#Cart button{
-	margin-top: 5px;
-	font-family: 'Signika', sans-serif;
-	text-transform: uppercase;
-	color: #ffffffff;
-	background-color: #148268;
-	border: none;
-	padding: 5px 10px;
-	border-radius: 5px;
-	box-shadow: 2px 2px 8px #808080;
-}
-
-#FormDiv #ClearButton{
-	margin-bottom: 15px;
-}

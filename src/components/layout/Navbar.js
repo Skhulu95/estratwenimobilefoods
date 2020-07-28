@@ -1,15 +1,16 @@
 
 import React from 'react';
-import Ripples from "react-ripples";
+
 
 const Navbar = () => {
     return (
 			<div className="container-fluid info p-3" id="top-icons">
 				<div className="row">
 					<div className="col d-flex justify-content-between align-items-baseline flex-wrap">
-						<a class="navbar-brand" href="#Navbar">
+						<a className="navbar-brand" href="#Navbar">
 							<img
 								src="/img/logo.jpg"
+								alt="logo-img"
 								style={({ width: "150px" }, { height: "150px" })}
 							/>
 						</a>
@@ -47,10 +48,10 @@ const Navbar = () => {
 								<div className="banner text-center">
 									<h1 className="display-1 text-capitalize w-50 mx-auto">
 										<strong className="primary-color">estratweni</strong>
-										<small> mobile foods</small>
+										<small className="color-color"> mobile foods</small>
 									</h1>
 									<a
-										href="#menu"
+										href="/store"
 										className="btn main-btn estratweni-btn my-4 text-capitalize"
 									>
 										order online
@@ -60,14 +61,14 @@ const Navbar = () => {
 						</div>
 					</div>
 
-					<a href="#menu" className="btn header-link primary-color">
+					<a href="#store" className="btn header-link primary-color">
 						<i className="fas fa-arrow-down"></i>
 					</a>
 				</header>
 				{/* end of header section */}
 				{/* <!-- navbar --> */}
 				<nav className="navbar navbar-expand-lg">
-					<a href="#" className="navbar-brand text-uppercase primary-color">
+					<a href="/" className="navbar-brand text-uppercase primary-color">
 						estratweni mobile foods
 					</a>
 					<button
@@ -86,43 +87,37 @@ const Navbar = () => {
 					<div className="collapse navbar-collapse" id="myNavbar">
 						<ul className="navbar-nav mx-auto">
 							<li className="nav-item">
-								<a href="#menu" className="nav-link text-capitalize">
-									menu
-								</a>
-							</li>
-
-							<li className="nav-item">
-								<a href="#about" className="nav-link text-capitalize">
+								<a href="/about" className="nav-link text-capitalize">
 									about
 								</a>
 							</li>
 
 							<li className="nav-item">
-								<a href="#reviews" className="nav-link text-capitalize">
+								<a href="/reviews" className="nav-link text-capitalize">
 									reviews
 								</a>
 							</li>
 
 							<li className="nav-item">
-								<a href="#team" className="nav-link text-capitalize">
+								<a href="/team" className="nav-link text-capitalize">
 									team
 								</a>
 							</li>
 
 							<li className="nav-item">
-								<a href="#contact" className="nav-link text-capitalize">
+								<a href="/contact" className="nav-link text-capitalize">
 									contact
 								</a>
 							</li>
 						</ul>
 						<form className="form-inline d-none d-lg-block mr-5">
-							<a href="#cart">
+							<a href="/store">
 								<button
 									className="btn nav-btn text-capitalize"
-									href="#cart"
+									href="/store"
 									type="button"
 								>
-									cart
+									order
 								</button>
 							</a>
 						</form>

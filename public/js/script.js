@@ -1,4 +1,4 @@
-jQuery(document).ready(function () {
+$(document).ready(function () {
     // toggler btn
     $('.navbar-toggler').click(function () {
         $('.navbar-toggler').toggleclassName('change');

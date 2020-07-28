@@ -4,7 +4,7 @@ var arr2 = [];
 var totalPrice = Number(0);
 $(document).ready(function () {
     row();
-    
+
 
     $("#CartButton1").click(function () {
         var Image = "<img src='img/menu-item-1.jpg'>";

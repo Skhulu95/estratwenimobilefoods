@@ -1,35 +1,44 @@
 /*eslint-disable*/
 
-import React, { Fragment, Component } from 'react';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import React, { Component } from 'react';
+import {
+	BrowserRouter as Router,
+	Route,
+	Switch,
+	Redirect,
+} from "react-router-dom";
 import './App.css';
+import './store.js';
+import './styles.css';
 import Navbar from './components/layout/Navbar';
-import About from './components/pages/About';
-import Reviews from './components/pages/Reviews';
-import Team from "./components/pages/Team";
-import Contact from "./components/pages/Contact";
 import Footer from "./components/layout/Footer";
-import Menu from './components/pages/Menu';
-import Cart from "./components/pages/Cart";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
+import NotFoundPage from "./components/pages/404";
+import MainPage from './components/pages/';
+import Store from './components/pages/Store';
+import Navigation from "./components/Navigation";
+import Team from "./components/pages/Team";
+
 
 class App extends React.Component {
 	render() {
 		return (
-			<BrowserRouter>
-				<div className="App">
-					<Fragment>
-						<Navbar />
-						<Menu />
-						
-						<Cart />
-						<About />
-						<Reviews />
-						<Team />
-						<Contact />
-						<Footer />
-					</Fragment>
+			<Router>
+				<div>
+					<Navbar />
+					<Switch>
+						<Route exact path="/" component={MainPage} />
+						<Route path="/about" component={About} />
+						<Route path="/team" component={Team} />
+						<Route path="/contact" component={Contact} />
+						<Route path="/store" component={Store} />
+						<Route path="/404" component={NotFoundPage} />
+						<Redirect to="/404" />
+					</Switch>
+					<Footer />
 				</div>
-			</BrowserRouter>
+			</Router>
 		);
 	};
 };

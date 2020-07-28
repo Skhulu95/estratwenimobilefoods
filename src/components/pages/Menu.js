@@ -2,6 +2,8 @@
 import React, { Component } from "react";
 import { Link, Route, Switch } from "react-router-dom";
 import Cart from "./Cart";
+import "../../App.css";
+// import Store from "./Store";
 
 const Menu = () => {
 	return (

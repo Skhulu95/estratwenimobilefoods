@@ -53,7 +53,7 @@ const Reviews = () => {
 												<h2 className="text-capitalize mb-3 secondary-color">
 													yomi papu
 												</h2>
-												<p className="lead text-muted">
+												<p className="lead text-dark">
 													I'm actually please with the service they provide. To
 													be quite honest, when I rock up there; one is welcomed
 													with great respect and actually you get great value
@@ -84,7 +84,7 @@ const Reviews = () => {
 												<h2 className="text-capitalize mb-3 secondary-color">
 													khanyisa nqato
 												</h2>
-												<p className="lead text-muted">
+												<p className="lead text-dark">
 													I must say, you guys make the most mouthwatering fine
 													foods ever. I'm personally the biggest FAN of tiro for
 													making the BEST JAHA EVER 👏💖. Best brunch
