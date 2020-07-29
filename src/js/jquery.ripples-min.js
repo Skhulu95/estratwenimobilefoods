@@ -1,5 +1,5 @@
 const $ = window.$;
-
+/*eslint no-unused-expressions: "error"*/
 /*eslint no-unused-expressions: 2*/
 
 

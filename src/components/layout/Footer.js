@@ -26,7 +26,7 @@ const Footer = () => {
 									<i className="fab fa-instagram fa-2x"></i>
 								</a>
 								<a
-									href="https://twitter.com/explore"
+									href="https://twitter.com/estratweni?lang=en"
 									className="mr-2 primary-color"
 								>
 									<i className="fab fa-twitter fa-2x"></i>

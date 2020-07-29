@@ -1,13 +1,13 @@
-
 import React from 'react';
 
+// import '../../js/script';
 
 const Navbar = () => {
     return (
 			<div className="container-fluid info p-3" id="top-icons">
 				<div className="row">
 					<div className="col d-flex justify-content-between align-items-baseline flex-wrap">
-						<a className="navbar-brand" href="#Navbar">
+						<a className="navbar-brand" href="Navbar">
 							<img
 								src="/img/logo.jpg"
 								alt="logo-img"
@@ -28,7 +28,7 @@ const Navbar = () => {
 								<i className="fab fa-instagram fa-2x"></i>
 							</a>
 							<a
-								href="https://twitter.com/explore"
+								href="https://twitter.com/estratweni?lang=en"
 								className="mr-2 primary-color"
 							>
 								<i className="fab fa-twitter fa-2x"></i>
@@ -51,7 +51,7 @@ const Navbar = () => {
 										<small className="color-color"> mobile foods</small>
 									</h1>
 									<a
-										href="/store"
+										href="store"
 										className="btn main-btn estratweni-btn my-4 text-capitalize"
 									>
 										order online
@@ -61,7 +61,7 @@ const Navbar = () => {
 						</div>
 					</div>
 
-					<a href="#store" className="btn header-link primary-color">
+					<a href="store" className="btn header-link primary-color">
 						<i className="fas fa-arrow-down"></i>
 					</a>
 				</header>
@@ -87,34 +87,34 @@ const Navbar = () => {
 					<div className="collapse navbar-collapse" id="myNavbar">
 						<ul className="navbar-nav mx-auto">
 							<li className="nav-item">
-								<a href="/about" className="nav-link text-capitalize">
+								<a href="about" className="nav-link text-capitalize">
 									about
 								</a>
 							</li>
 
 							<li className="nav-item">
-								<a href="/reviews" className="nav-link text-capitalize">
+								<a href="reviews" className="nav-link text-capitalize">
 									reviews
 								</a>
 							</li>
 
 							<li className="nav-item">
-								<a href="/team" className="nav-link text-capitalize">
+								<a href="team" className="nav-link text-capitalize">
 									team
 								</a>
 							</li>
 
 							<li className="nav-item">
-								<a href="/contact" className="nav-link text-capitalize">
+								<a href="contact" className="nav-link text-capitalize">
 									contact
 								</a>
 							</li>
 						</ul>
 						<form className="form-inline d-none d-lg-block mr-5">
-							<a href="/store">
+							<a href="store">
 								<button
 									className="btn nav-btn text-capitalize"
-									href="/store"
+									href="store"
 									type="button"
 								>
 									order
