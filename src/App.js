@@ -15,7 +15,7 @@ import Footer from "./components/layout/Footer";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import NotFoundPage from "./components/pages/404";
-import MainPage from './components/pages/';
+import Main from './components/pages/Main';
 import Store from './components/pages/Store';
 import Navigation from "./components/Navigation";
 import Team from "./components/pages/Team";
@@ -28,12 +28,12 @@ class App extends React.Component {
 				<div>
 					<Navbar />
 					<Switch>
-						<Route exact path="/" component={MainPage} />
-						<Route path="/about" component={About} />
-						<Route path="/team" component={Team} />
-						<Route path="/contact" component={Contact} />
-						<Route path="/store" component={Store} />
-						<Route path="/404" component={NotFoundPage} />
+						<Route exact path="/" component={Main} />
+						<Route exact path="/about" component={About} />
+						<Route exact path="/team" component={Team} />
+						<Route exact path="/contact" component={Contact} />
+						<Route exact path="/store" component={Store} />
+						<Route exact path="/404" component={NotFoundPage} />
 						<Redirect to="/404" />
 					</Switch>
 					<Footer />

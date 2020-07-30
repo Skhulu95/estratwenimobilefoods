@@ -30,7 +30,7 @@ const About = () => {
 								</h2>
 								<a
 									href="https://www.msn.com/en-za/news/other/street-hussle-small-business-surviving-through-lockdown-is-retail-capital-s-comeback-winner/ar-BB16P4KN?fbclid=IwAR1cg2vFIjjLA1UnGLGORlFIJuhWW13fk33szVoVfVLccWS5DLQgd5rzKsM"
-									class="btn main-btn my-4 text-capitalize"
+									className="btn main-btn my-4 text-capitalize"
 								>
 									learn more
 								</a>

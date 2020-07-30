@@ -1,3 +1,5 @@
+const $ = window.$;
+
 $(document).ready(function () {
     // toggler btn
     $('.navbar-toggler').click(function () {

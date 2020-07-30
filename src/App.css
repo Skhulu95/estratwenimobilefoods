@@ -12,6 +12,7 @@ body {
 	font-family: "Special Elite", cursive;
 	color: whitesmoke;
 	background: url(./components/img/itembackground.jpg) center/cover fixed no-repeat;
+	flex-wrap: wrap;
 }
 
 .primary-color {
@@ -177,7 +178,7 @@ info a:hover {
 	transform: rotate(10deg);
 }
 .toggler-btn {
-	border: 2px solid #d3325f;
+	border: 2px solid #e77728;
 	padding: 5px;
 	transition: all 2s ease;
 }
@@ -185,7 +186,7 @@ info a:hover {
 	width: 30px;
 	height: 3px;
 	margin: 5px;
-	background: #d3325f;
+	background: #e77728;
 	transition: all 0.5s ease;
 }
 
@@ -410,7 +411,7 @@ info a:hover {
 			rgba(255, 255, 255, 0.7),
 			rgba(255, 255, 255, 0.7)
 		),
-		url(./components/img/itembackground_2.jpg) center/cover fixed no-repeat;
+		url(./components/img/logo.jpg) center/cover fixed no-repeat;
 }
 
 /* footer */

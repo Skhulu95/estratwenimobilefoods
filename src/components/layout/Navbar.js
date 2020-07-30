@@ -1,7 +1,5 @@
 import React from 'react';
 
-// import '../../js/script';
-
 const Navbar = () => {
     return (
 			<div className="container-fluid info p-3" id="top-icons">
