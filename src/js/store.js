@@ -6,41 +6,48 @@ if (document.readyState === "loading") {
 }
 
 function ready() {
-	var removeCartItemButtons = document.getElementsByClassName("btn-danger");
-	for (var i = 0; i < removeCartItemButtons.length; i++) {
-		var button = removeCartItemButtons[i];
-		button.addEventListener("click", removeCartItem);
-	}
+										var removeCartItemButtons = document.getElementsByClassName(
+											"btn-danger"
+										);
+										for (var i = 0; i < removeCartItemButtons.length; i++) {
+											var button = removeCartItemButtons[i];
+											button.addEventListener("click", removeCartItem);
+										}
 
-	var quantityInputs = document.getElementsByClassName("cart-quantity-input");
-	// eslint-disable-next-line
-	for (var i = 0; i < quantityInputs.length; i++) {
-		var input = quantityInputs[i];
-		input.addEventListener("change", quantityChanged);
-	}
+										var quantityInputs = document.getElementsByClassName(
+											"cart-quantity-input"
+										);
+										// eslint-disable-next-line
+										for (var i = 0; i < quantityInputs.length; i++) {
+											var input = quantityInputs[i];
+											input.addEventListener("change", quantityChanged);
+										}
 
-	var addToCartButtons = document.getElementsByClassName("shop-item-button");
-	// eslint-disable-next-line
-	for (var i = 0; i < addToCartButtons.length; i++) {
-		// eslint-disable-next-line
-		var button = addToCartButtons[i];
-		button.addEventListener("click", addToCartClicked);
-	}
+										var addToCartButtons = document.getElementsByClassName(
+											"shop-item-button"
+										);
+										// eslint-disable-next-line
+										for (var i = 0; i < addToCartButtons.length; i++) {
+											// eslint-disable-next-line
+											var button = addToCartButtons[i];
+											button.addEventListener("click", addToCartClicked);
+										}
 
-	document.getElementsByClassName("btn-purchase");
-}
+										document.getElementsByClassName("btn-purchase"); // [0].addEventListener("click", purchaseClicked)
+									}
 
-function purchaseClicked() {
-	alert(
-		"Thank you for your purchase.\nYour reference number is: " +
-			Math.random() * 1000000000000000000
-	);
-	var cartItems = document.getElementsByClassName("cart-items")[0];
-	while (cartItems.hasChildNodes()) {
-		cartItems.removeChild(cartItems.firstChild);
-	}
-	updateCartTotal();
-}
+									
+// function purchaseClicked() {
+// 	alert(
+// 		"Thank you for your purchase.\nYour reference number is: " +
+// 			Math.random() * 1000000000000000000
+// 	);
+// 	var cartItems = document.getElementsByClassName("cart-items")[0];
+// 	while (cartItems.hasChildNodes()) {
+// 		cartItems.removeChild(cartItems.firstChild);
+// 	}
+// 	updateCartTotal();
+// }
 
 function removeCartItem(event) {
 	var buttonClicked = event.target;

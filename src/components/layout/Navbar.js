@@ -5,7 +5,7 @@ const Navbar = () => {
 			<div>
 				{/* <!-- navbar --> */}
 				<nav className="navbar navbar-expand-lg">
-					<a className="navbar-brand" href="Navbar">
+					<a className="navbar-brand" href="/">
 						<img
 							src="/img/logo.jpg"
 							alt="logo-img"
@@ -55,7 +55,7 @@ const Navbar = () => {
 							</li>
 						</ul>
 						<form className="form-inline d-none d-lg-block mr-5">
-							<a href="store">
+							<a href="store" target="_blank" rel="noopener noreferrer">
 								<button
 									className="btn nav-btn text-capitalize"
 									href="store"

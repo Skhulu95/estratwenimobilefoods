@@ -33,10 +33,10 @@ class App extends React.Component {
 						<Route exact path="/reviews" component={Reviews} />
 						<Route exact path="/team" component={Team} />
 						<Route exact path="/contact" component={Contact} />
-						<Route exact path="/store" component={Store} />
+						<Route exact path="/store" target="_blank" component={Store} />
 						<Route component={NotFoundPage} />
 					</Switch>
-					
+
 					<Footer />
 				</div>
 			</Router>

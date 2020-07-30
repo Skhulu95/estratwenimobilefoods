@@ -327,8 +327,9 @@ info a:hover {
 	clip-path: polygon(5% 0, 100% 0, 90% 100%, 0 100%);
 }
 
-.review-img {
-	width: 150px;
+.reviews-img {
+	width: 350px;
+	height: 350px;
 }
 .lead-text {
     color: black;
@@ -425,34 +426,19 @@ info a:hover {
 .modal img{
 	width: 320px;
 }
-.card{
-	border: none;
-}
 
-.card img{
-	border: none;
-}
-
-.card h4{
-	font-size: 18px;
-	padding: 0;
-  margin-bottom: -20px;
-  color: black;
-}
-
-.card button{
-	margin-top: 5px;
-	font-family: 'Signika', sans-serif;
-	text-transform: uppercase;
-	color: #ffffffff;
-	background-color: transparent;
-	border: #d2d7df solid;
-}
-
-.card-body{
-	margin-top: -10px;
-	height: 130px;
-	background-color: #e77728;
-}
 img { max-width: 100%; height: auto; }
 
+
+    
+        @media (max-width: 500px) {
+            .reviewsl-container {
+                text-align: center;
+            }
+    
+            #reviews-container img {
+                margin: auto;
+                float: none;
+                display: block;
+            }
+        }

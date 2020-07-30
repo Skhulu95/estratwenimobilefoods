@@ -14,15 +14,16 @@ const Reviews = () => {
 									<div className="row">
 										<div className="col-lg-10 mx-auto d-flex justify-content-between review-item py-3">
 											{/* <!-- image --> */}
-											<div className="align-self-center ml-3">
+											<div className="reviews">
 												<img
 													src="img/customer1.jpg"
-													alt="review-img"
-													className="rounded-circle review-img"
+													alt="reviews-img"
+													className="rounded-circle reviews-img"
+													style={({ width: "350px" }, { height: "350px" })}
 												/>
 											</div>
 											{/* <!-- text --> */}
-											<div className="review-text px-5">
+											<div className="reviews-text px-5">
 												<h2 className="text-capitalize mb-3 secondary-color">
 													okuhle pele
 												</h2>
@@ -41,15 +42,16 @@ const Reviews = () => {
 									<div className="row">
 										<div className="col-lg-10 mx-auto d-flex justify-content-between review-item py-3">
 											{/* <!-- image --> */}
-											<div className="align-self-center ml-3">
+											<div className="reviews">
 												<img
 													src="img/customer2.jpg"
-													alt="review-img"
-													className="rounded-circle review-img"
+													alt="reviews-img"
+													className="rounded-circle reviews-img"
+													style={({ width: "250px" }, { height: "350px" })}
 												/>
 											</div>
 											{/* <!-- text --> */}
-											<div className="review-text px-5">
+											<div className="reviews-text px-5">
 												<h2 className="text-capitalize mb-3 secondary-color">
 													yomi papu
 												</h2>
@@ -72,15 +74,16 @@ const Reviews = () => {
 									<div className="row">
 										<div className="col-lg-10 mx-auto d-flex justify-content-between review-item py-3">
 											{/* <!-- image --> */}
-											<div className="align-self-center ml-3">
+											<div className="reviews">
 												<img
 													src="img/customer3.jpg"
-													alt="review-img"
-													className="rounded-circle review-img"
+													alt="reviews-img"
+													className="rounded-circle reviews-img"
+													style={({ width: "550px" }, { height: "350px" })}
 												/>
 											</div>
 											{/* <!-- text --> */}
-											<div className="review-text px-5">
+											<div className="reviews-text px-5">
 												<h2 className="text-capitalize mb-3 secondary-color">
 													khanyisa nqato
 												</h2>
