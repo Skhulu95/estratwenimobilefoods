@@ -8,7 +8,7 @@ import {
 	Redirect,
 } from "react-router-dom";
 import './App.css';
-import './store.js';
+import './js/store.js';
 import './styles.css';
 import Navbar from './components/layout/Navbar';
 import Header from "./components/pages/Header";
@@ -34,8 +34,7 @@ class App extends React.Component {
 						<Route exact path="/team" component={Team} />
 						<Route exact path="/contact" component={Contact} />
 						<Route exact path="/store" component={Store} />
-						<Route exact path="/404" component={NotFoundPage} />
-						<Redirect to="/404" />
+						<Route component={NotFoundPage} />
 					</Switch>
 					
 					<Footer />

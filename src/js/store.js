@@ -1,3 +1,4 @@
+
 if (document.readyState === "loading") {
 	document.addEventListener("DOMContentLoaded", ready);
 } else {
@@ -25,13 +26,17 @@ function ready() {
 		var button = addToCartButtons[i];
 		button.addEventListener("click", addToCartClicked);
 	}
-	
-	document.getElementsByClassName("btn-purchase")[0].addEventListener("click", purchaseClicked);
+
+	document
+		.getElementsByClassName("btn-purchase")[0]
+		.addEventListener("click", purchaseClicked);
 }
 
 function purchaseClicked() {
-	alert("Thank you for your purchase.\nYour reference number is: " +
-			Math.random() * 1000000000000000000);
+	alert(
+		"Thank you for your purchase.\nYour reference number is: " +
+			Math.random() * 1000000000000000000
+	);
 	var cartItems = document.getElementsByClassName("cart-items")[0];
 	while (cartItems.hasChildNodes()) {
 		cartItems.removeChild(cartItems.firstChild);
@@ -75,14 +80,14 @@ function addItemToCart(title, price, imageSrc) {
 		}
 	}
 	var cartRowContents = `
-        <div className="cart-item cart-column">
-            <img className="cart-item-image" src="${imageSrc}" width="100" height="100">
-            <span className="cart-item-title">${title}</span>
+        <div class="cart-item cart-column">
+            <img class="cart-item-image" src="${imageSrc}" width="100" height="100">
+            <span class="cart-item-title">${title}</span>
         </div>
-        <span className="cart-price cart-column">${price}</span>
-        <div className="cart-quantity cart-column">
-            <input className="cart-quantity-input" type="number" value="1">
-            <button className="btn btn-danger" type="button">REMOVE</button>
+        <span class="cart-price cart-column">${price}</span>
+        <div class="cart-quantity cart-column">
+            <input class="cart-quantity-input" type="number" value="1">
+            <button class="btn btn-danger" type="button">REMOVE</button>
         </div>`;
 	cartRow.innerHTML = cartRowContents;
 	cartItems.append(cartRow);
@@ -112,4 +117,3 @@ function updateCartTotal() {
 	document.getElementsByClassName("cart-total-price")[0].innerText =
 		"ZAR" + total;
 }
-
