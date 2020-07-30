@@ -7,7 +7,7 @@ const Footer = () => {
 			<div>
 				{/*<!-- footer --> */}
 				<div className="container-fluid info p-3">
-					<a href="#top-icons" id="back-to-top" className="p-1">
+					<a href="/" id="back-to-top" className="p-1">
 						<i className="fas fa-arrow-up primary-color fa-3x"></i>
 					</a>
 					<div className="row">

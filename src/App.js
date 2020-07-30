@@ -11,14 +11,14 @@ import './App.css';
 import './store.js';
 import './styles.css';
 import Navbar from './components/layout/Navbar';
+import Header from "./components/pages/Header";
 import Footer from "./components/layout/Footer";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import NotFoundPage from "./components/pages/404";
-import Main from './components/pages/Main';
 import Store from './components/pages/Store';
-import Navigation from "./components/Navigation";
 import Team from "./components/pages/Team";
+import Reviews from "./components/pages/Reviews";
 
 
 class App extends React.Component {
@@ -28,14 +28,16 @@ class App extends React.Component {
 				<div>
 					<Navbar />
 					<Switch>
-						<Route exact path="/" component={Main} />
+						<Route exact path="/" component={Header} />
 						<Route exact path="/about" component={About} />
+						<Route exact path="/reviews" component={Reviews} />
 						<Route exact path="/team" component={Team} />
 						<Route exact path="/contact" component={Contact} />
 						<Route exact path="/store" component={Store} />
 						<Route exact path="/404" component={NotFoundPage} />
 						<Redirect to="/404" />
 					</Switch>
+					
 					<Footer />
 				</div>
 			</Router>

@@ -13,6 +13,7 @@ body {
 	color: whitesmoke;
 	background: url(./components/img/itembackground.jpg) center/cover fixed no-repeat;
 	flex-wrap: wrap;
+	min-height:100%; position:relative;
 }
 
 .primary-color {
@@ -259,18 +260,6 @@ info a:hover {
 		url(./components/img/itembackground_2.jpg) center/cover fixed no-repeat;
 }
 
-.special {
-	border: 3px solid #e77728;
-	position: relative;
-}
-
-.special-text {
-	position: absolute;
-	top: 0;
-	right: 10%;
-	background: #e77728;
-	padding: 0 0.4rem;
-}
 
 /* about */
 
@@ -322,7 +311,7 @@ info a:hover {
     border-color: #e77728;
 } */
 .about-image:hover {
-	outline: 10px solid #d3325f;
+	outline: 10px solid #e77728;
 	outline-offset: 0.8rem;
 	transform: scale(1.3) rotate(20deg);
 	z-index: 30;
@@ -419,8 +408,11 @@ info a:hover {
 	background: #c9c1ac;
 	border-radius: 10px;
 	display: inline-block;
+	
 }
-
+#footer {
+    height:115px;
+}
 .scrollTop {
 	position: fixed;
 	bottom: 70px;
