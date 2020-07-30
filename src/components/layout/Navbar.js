@@ -13,7 +13,7 @@ const Navbar = () => {
 						/>
 					</a>
 					<a href="/" className="navbar-brand text-uppercase primary-color">
-						estratweni mobile foods
+						estratweni <br></br>mobile foods
 					</a>
 					<button
 						className="navbar-toggler"

@@ -17,7 +17,7 @@ const Reviews = () => {
 											<div className="align-self-center ml-3">
 												<img
 													src="img/customer1.jpg"
-													alt=""
+													alt="review-img"
 													className="rounded-circle review-img"
 												/>
 											</div>
@@ -44,7 +44,7 @@ const Reviews = () => {
 											<div className="align-self-center ml-3">
 												<img
 													src="img/customer2.jpg"
-													alt=""
+													alt="review-img"
 													className="rounded-circle review-img"
 												/>
 											</div>
@@ -75,7 +75,7 @@ const Reviews = () => {
 											<div className="align-self-center ml-3">
 												<img
 													src="img/customer3.jpg"
-													alt=""
+													alt="review-img"
 													className="rounded-circle review-img"
 												/>
 											</div>
