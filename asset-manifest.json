@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/estratwenimobilefoods/static/css/main.66dead97.chunk.css",
+    "main.js": "/estratwenimobilefoods/static/js/main.884d5318.chunk.js",
+    "main.js.map": "/estratwenimobilefoods/static/js/main.884d5318.chunk.js.map",
+    "runtime-main.js": "/estratwenimobilefoods/static/js/runtime-main.f7bf39ef.js",
+    "runtime-main.js.map": "/estratwenimobilefoods/static/js/runtime-main.f7bf39ef.js.map",
+    "static/js/2.4918c400.chunk.js": "/estratwenimobilefoods/static/js/2.4918c400.chunk.js",
+    "static/js/2.4918c400.chunk.js.map": "/estratwenimobilefoods/static/js/2.4918c400.chunk.js.map",
+    "index.html": "/estratwenimobilefoods/index.html",
+    "precache-manifest.9bc1affc09cc6fa41e300cc3107cd7eb.js": "/estratwenimobilefoods/precache-manifest.9bc1affc09cc6fa41e300cc3107cd7eb.js",
+    "service-worker.js": "/estratwenimobilefoods/service-worker.js",
+    "static/css/main.66dead97.chunk.css.map": "/estratwenimobilefoods/static/css/main.66dead97.chunk.css.map",
+    "static/js/2.4918c400.chunk.js.LICENSE.txt": "/estratwenimobilefoods/static/js/2.4918c400.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/estratwenimobilefoods/static/media/logo.d8232415.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7bf39ef.js",
+    "static/js/2.4918c400.chunk.js",
+    "static/css/main.66dead97.chunk.css",
+    "static/js/main.884d5318.chunk.js"
+  ]
+}
