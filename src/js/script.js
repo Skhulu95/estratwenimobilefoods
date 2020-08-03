@@ -6,32 +6,32 @@ $(document).ready(function () {
         $('.navbar-toggler').toggleclassName('change');
     });
 
-    // sticky navbar
-    $(window).scroll(function () {
-        let position = $(this).scrollTop();
+    // // sticky navbar
+    // $(window).scroll(function () {
+    //     let position = $(this).scrollTop();
 
-        if (position >= 718) {
-            $('.navbar').addclassName('navbar-background');
-            $('.navbar').addclassName('fixed-top');
-        }
-        else {
-            $('.navbar').removeclassName('navbar-background');
-            $('.navbar').removeclassName('fixed-top');
-        }
-    });
+    //     if (position >= 718) {
+    //         $('.navbar').addclassName('navbar-background');
+    //         $('.navbar').addclassName('fixed-top');
+    //     }
+    //     else {
+    //         $('.navbar').removeclassName('navbar-background');
+    //         $('.navbar').removeclassName('fixed-top');
+    //     }
+    // });
 
-    // back to top
-    $(window).scroll(function () {
-        let position = $(this).scrollTop();
+    // // back to top
+    // $(window).scroll(function () {
+    //     let position = $(this).scrollTop();
 
-        if (position >= 720) {
-            $('#back-to-top').addclassName('scrollTop');
+    //     if (position >= 720) {
+    //         $('#back-to-top').addclassName('scrollTop');
            
-        }
-        else {
-            $('#back-to-top').removeclassName('scrollTop');
-        }
-    });
+    //     }
+    //     else {
+    //         $('#back-to-top').removeclassName('scrollTop');
+    //     }
+    // });
 
     //ripples
     $("#header, .info").ripples({
@@ -40,13 +40,13 @@ $(document).ready(function () {
 
     });
     // magnific popup //
-    $('.parent-container').magnificPopup({
-        delegate: 'a', // child items selector, by clicking on it popup will open
-        type: 'image',
+    // $('.parent-container').magnificPopup({
+    //     delegate: 'a', // child items selector, by clicking on it popup will open
+    //     type: 'image',
 
-        gallery: {
-            enebled: true
-        }
-        // other options
-    });
+    //     gallery: {
+    //         enebled: true
+    //     }
+    //     // other options
+    // });
 });
