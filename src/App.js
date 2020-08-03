@@ -29,11 +29,11 @@ class App extends React.Component {
 					<Navbar />
 					<Switch>
 						<Route exact path="/" component={Header} />
-						<Route exact path="/about" component={About} />
-						<Route exact path="/reviews" component={Reviews} />
-						<Route exact path="/team" component={Team} />
-						<Route exact path="/contact" component={Contact} />
-						<Route exact path="/store" target="_blank" component={Store} />
+						<Route  path="/about" component={About} />
+						<Route  path="/reviews" component={Reviews} />
+						<Route  path="/team" component={Team} />
+						<Route  path="/contact" component={Contact} />
+						<Route  path="/store" target="_blank" component={Store} />
 						<Route component={NotFoundPage} />
 					</Switch>
 
