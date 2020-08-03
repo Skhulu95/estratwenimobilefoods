@@ -1,12 +1,13 @@
 import React from "react";
 import "../../App.css";
 
+
 import "../../js/store";
 
 const Store = () => {
 	return (
 		<div>
-			<section id="about" className="container content-section">
+			<section id="store" className="container content-section">
 				<h2 className="section-header">MENU</h2>
 				<div className="shop-items">
 					<div className="shop-item">

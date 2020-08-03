@@ -6,19 +6,19 @@ $(document).ready(function () {
         $('.navbar-toggler').toggleclassName('change');
     });
 
-    // // sticky navbar
-    // $(window).scroll(function () {
-    //     let position = $(this).scrollTop();
+    //  sticky navbar
+     $(window).scroll(function () {
+         let position = $(this).scrollTop();
 
-    //     if (position >= 718) {
-    //         $('.navbar').addclassName('navbar-background');
-    //         $('.navbar').addclassName('fixed-top');
-    //     }
-    //     else {
-    //         $('.navbar').removeclassName('navbar-background');
-    //         $('.navbar').removeclassName('fixed-top');
-    //     }
-    // });
+         if (position >= 718) {
+             $('.navbar').addclassName('navbar-background');
+             $('.navbar').addclassName('fixed-top');
+         }
+         else {
+             $('.navbar').removeclassName('navbar-background');
+             $('.navbar').removeclassName('fixed-top');
+         }
+     });
 
     // // back to top
     // $(window).scroll(function () {

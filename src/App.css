@@ -298,6 +298,15 @@ info a:hover {
 	left: 60%;
 	top: 20%;
 }
+
+#store {
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.7),
+			rgba(255, 255, 255, 0.7)
+		),
+		url(./components/img/itembackground_2.jpg) center/cover fixed no-repeat;
+}
+
 #about {
 	background: linear-gradient(
 			rgba(255, 255, 255, 0.7),
