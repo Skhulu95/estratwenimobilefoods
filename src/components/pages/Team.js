@@ -24,13 +24,16 @@ const Team = () => {
 										<h4 className="primary-color text-capitalize">chef</h4>
 									</div>
 									<div className="card-footer team-icons d-flex justify-content-between">
-										<a href="https://www.facebook.com/siphumeze.ramncwana">
+									<a href="https://www.facebook.com/siphumeze.ramncwana" target="_blank"
+										rel="noopener noreferrer">
 											<i className="fab fa-facebook fa-2x"></i>
 										</a>
-										<a href="https://www.instagram.com">
+									<a href="https://www.instagram.com" target="_blank"
+										rel="noopener noreferrer">
 											<i className="fab fa-instagram fa-2x"></i>
 										</a>
-										<a href="https://www.twitter.com">
+									<a href="https://www.twitter.com" target="_blank"
+										rel="noopener noreferrer">
 											<i className="fab fa-twitter fa-2x"></i>
 										</a>
 									</div>
@@ -52,14 +55,17 @@ const Team = () => {
 										</div>
 										<h4 className="primary-color text-capitalize">chef</h4>
 									</div>
-									<div className="card-footer team-icons d-flex justify-content-between">
-										<a href="https://www.facebook.com/siphamandlathando.mavumengwana">
+									<div className="card-footer team-icons d-flex justify-content-between" >
+									<a href="https://www.facebook.com/siphamandlathando.mavumengwana" target="_blank"
+										rel="noopener noreferrer">
 											<i className="fab fa-facebook fa-2x"></i>
 										</a>
-										<a href="https://www.instagram.com">
+										<a href="https://www.instagram.com" target="_blank"
+									rel="noopener noreferrer">
 											<i className="fab fa-instagram fa-2x"></i>
 										</a>
-										<a href="https://www.twitter.com">
+										<a href="https://www.twitter.com" target="_blank"
+									rel="noopener noreferrer">
 											<i className="fab fa-twitter fa-2x"></i>
 										</a>
 									</div>
@@ -82,13 +88,16 @@ const Team = () => {
 										<h4 className="primary-color text-capitalize">chef</h4>
 									</div>
 									<div className="card-footer team-icons d-flex justify-content-between">
-										<a href="https://www.facebook.com/bahle.langwana">
+										<a href="https://www.facebook.com/bahle.langwana" target="_blank"
+									rel="noopener noreferrer">
 											<i className="fab fa-facebook fa-2x"></i>
 										</a>
-										<a href="https://www.instagram.com">
+										<a href="https://www.instagram.com" target="_blank"
+									rel="noopener noreferrer">
 											<i className="fab fa-instagram fa-2x"></i>
 										</a>
-										<a href="https://www.twitter.com">
+										<a href="https://www.twitter.com" target="_blank"
+									rel="noopener noreferrer">
 											<i className="fab fa-twitter fa-2x"></i>
 										</a>
 									</div>
