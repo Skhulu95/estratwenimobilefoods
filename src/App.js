@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Fragment} from "react";
 import "./App.css";
 import "./js/store.js";
 import "./styles.css";
@@ -24,19 +24,22 @@ class App extends React.Component {
 		return (
 			<div className="App">
 				<div>
-					<Router>
-						<Header />
-						<Switch>
-							<Route exact path="/" component={Navbar} />
-							<Route path="/Log" component={Log} />
-							<Route path="/about" component={About} />
-							<Route path="/reviews" component={Reviews} />
-							<Route path="/team" component={Team} />
-							<Route path="/contact" component={Contact} />
-							<Route path="/store" component={Store} />
-						</Switch>
-						<Footer />
-					</Router>
+					<div className="App">
+						<Fragment>
+							<Header />
+							<Navbar />
+							<About />
+							<Reviews />
+							<Team />
+							<Contact />
+							<Store />
+							<Switch>
+								<Route path="/Log" component={Log} />
+							</Switch>
+							<Footer />
+						</Fragment>
+					</div>
+					
 				</div>
 			</div>
 		);
