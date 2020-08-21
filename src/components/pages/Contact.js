@@ -1,6 +1,14 @@
 /*eslint-disable*/
 import React from 'react';
 
+function validateForm() {
+	var x = document.forms["myForm"]["fname"].value;
+	if (x == "") {
+		alert("Name must be filled out");
+		return false;
+	}
+}
+
 const Contact = () => {
     return (
 			<div>
@@ -31,7 +39,7 @@ const Contact = () => {
 										<h1 className="text-uppercase">contact us</h1>
 									</div>
 									<div className="cards-body">
-										<form action="https://formspree.io/mvowwqvl" method="POST">
+									<form action="https://formspree.io/mvowwqvl" method="POST" name="myForm" onsubmit="return validateForm()">
 											{/* <!-- input group --> */}
 											<div className="input-group my-3">
 												<div className="input-group-prepend">
@@ -43,7 +51,8 @@ const Contact = () => {
 													type="text"
 													id="text"
 													className="form-control form-control-lg"
-													placeholder="Enter your name here"
+												placeholder="Enter your name here"
+												required
 												/>
 											</div>
 											{/* <!-- input group --> */}
@@ -57,7 +66,8 @@ const Contact = () => {
 													type="text"
 													id="phone"
 													className="form-control form-control-lg"
-													placeholder="Enter your phone here"
+												placeholder="Enter your phone here"
+												required
 												/>
 											</div>
 											{/* <!-- input group --> */}
@@ -72,7 +82,8 @@ const Contact = () => {
 													id="text"
 													name="_replyto"
 													className="form-control form-control-lg"
-													placeholder="Enter your email here"
+												placeholder="Enter your email here"
+												required
 												/>
 											</div>
 											{/* <!-- input group --> */}
@@ -87,7 +98,8 @@ const Contact = () => {
 														name="message"
 														rows="4"
 														cols="25"
-														placeholder="Type your message here..."
+													placeholder="Type your message here..."
+													required
 													></textarea>
 												</label>
 												<br />
