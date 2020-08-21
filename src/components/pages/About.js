@@ -2,10 +2,38 @@
 import React from 'react';
 
 const About = () => {
-    return (
+	return (
+		<div className="column">
 			<div>
 				{/*<!-- about  --> */}
 				<section id="about" className="py-5">
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
 					<div className="container">
 						<div className="row">
 							<div className="col-md-6 my-4">
@@ -75,7 +103,8 @@ const About = () => {
 
 				{/* <!-- end of about  -->*/}
 			</div>
-		);
+		</div>
+	);
 }
 
 export default About;

@@ -6,6 +6,12 @@ const Contact = () => {
 			<div>
 				{/* <!-- contact section --> */}
 				<section id="contact">
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
 					<div className="container-fluid no-padding">
 						<div className="row">
 							<div className="col-md-6 my-3">
@@ -16,7 +22,7 @@ const Contact = () => {
 										width="100%"
 										frameborder="0"
 										style={{ border: "0" }}
-										allowfullscreen=""
+										allowFullScreen=""
 										aria-hidden="false"
 										tabindex="0"
 									></iframe>

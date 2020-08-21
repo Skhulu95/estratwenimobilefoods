@@ -8,6 +8,60 @@ const Store = () => {
 	return (
 		<div>
 			<section id="store" className="container content-section">
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
 				<h2 className="section-header">MENU</h2>
 				<div className="shop-items">
 					<div className="shop-item">
@@ -29,7 +83,10 @@ const Store = () => {
 							>
 								More Info
 							</button>
-							<button className="btn btn-primary shop-item-button" type="button">
+							<button
+								className="btn btn-primary shop-item-button"
+								type="button"
+							>
 								ADD TO CART
 							</button>
 							{/* <!-- The Modal --> */}
@@ -39,7 +96,11 @@ const Store = () => {
 										{/* <!-- Modal Header --> */}
 										<div className="modal-header">
 											<h4 className="modal-title">Burger & Chips</h4>
-											<button type="button" className="close" data-dismiss="modal">
+											<button
+												type="button"
+												className="close"
+												data-dismiss="modal"
+											>
 												&times;
 											</button>
 										</div>
@@ -93,7 +154,10 @@ const Store = () => {
 							>
 								More Info
 							</button>
-							<button className="btn btn-primary shop-item-button" type="button">
+							<button
+								className="btn btn-primary shop-item-button"
+								type="button"
+							>
 								ADD TO CART
 							</button>
 							{/* 
@@ -104,7 +168,11 @@ const Store = () => {
 										{/* <!-- Modal Header --> */}
 										<div className="modal-header">
 											<h4 className="modal-title">Quarter Chicken & Chips</h4>
-											<button type="button" className="close" data-dismiss="modal">
+											<button
+												type="button"
+												className="close"
+												data-dismiss="modal"
+											>
 												&times;
 											</button>
 										</div>
@@ -158,7 +226,10 @@ const Store = () => {
 							>
 								More Info
 							</button>
-							<button className="btn btn-primary shop-item-button" type="button">
+							<button
+								className="btn btn-primary shop-item-button"
+								type="button"
+							>
 								ADD TO CART
 							</button>
 							{/* <!-- The Modal --> */}
@@ -168,7 +239,11 @@ const Store = () => {
 										{/* <!-- Modal Header --> */}
 										<div className="modal-header">
 											<h4 className="modal-title">Double Beef Burger</h4>
-											<button type="button" className="close" data-dismiss="modal">
+											<button
+												type="button"
+												className="close"
+												data-dismiss="modal"
+											>
 												&times;
 											</button>
 										</div>
@@ -222,7 +297,10 @@ const Store = () => {
 							>
 								More Info
 							</button>
-							<button className="btn btn-primary shop-item-button" type="button">
+							<button
+								className="btn btn-primary shop-item-button"
+								type="button"
+							>
 								ADD TO CART
 							</button>
 							{/* 
@@ -233,7 +311,11 @@ const Store = () => {
 										{/* <!-- Modal Header --> */}
 										<div className="modal-header">
 											<h4 className="modal-title">Jaha</h4>
-											<button type="button" className="close" data-dismiss="modal">
+											<button
+												type="button"
+												className="close"
+												data-dismiss="modal"
+											>
 												&times;
 											</button>
 										</div>
@@ -288,7 +370,10 @@ const Store = () => {
 							>
 								More Info
 							</button>
-							<button className="btn btn-primary shop-item-button" type="button">
+							<button
+								className="btn btn-primary shop-item-button"
+								type="button"
+							>
 								ADD TO CART
 							</button>
 							{/* 
@@ -299,7 +384,11 @@ const Store = () => {
 										{/* <!-- Modal Header --> */}
 										<div className="modal-header">
 											<h4 className="modal-title">Nuggets & Chips</h4>
-											<button type="button" className="close" data-dismiss="modal">
+											<button
+												type="button"
+												className="close"
+												data-dismiss="modal"
+											>
 												&times;
 											</button>
 										</div>
@@ -350,7 +439,10 @@ const Store = () => {
 							>
 								More Info
 							</button>
-							<button className="btn btn-primary shop-item-button" type="button">
+							<button
+								className="btn btn-primary shop-item-button"
+								type="button"
+							>
 								ADD TO CART
 							</button>
 							{/* 
@@ -361,7 +453,11 @@ const Store = () => {
 										{/* <!-- Modal Header --> */}
 										<div className="modal-header">
 											<h4 className="modal-title">Wings</h4>
-											<button type="button" className="close" data-dismiss="modal">
+											<button
+												type="button"
+												className="close"
+												data-dismiss="modal"
+											>
 												&times;
 											</button>
 										</div>
@@ -412,7 +508,10 @@ const Store = () => {
 							>
 								More Info
 							</button>
-							<button className="btn btn-primary shop-item-button" type="button">
+							<button
+								className="btn btn-primary shop-item-button"
+								type="button"
+							>
 								ADD TO CART
 							</button>
 							{/* 
@@ -423,7 +522,11 @@ const Store = () => {
 										{/* <!-- Modal Header --> */}
 										<div className="modal-header">
 											<h4 className="modal-title">2-by-2 Platter</h4>
-											<button type="button" className="close" data-dismiss="modal">
+											<button
+												type="button"
+												className="close"
+												data-dismiss="modal"
+											>
 												&times;
 											</button>
 										</div>
@@ -477,7 +580,10 @@ const Store = () => {
 							>
 								More Info
 							</button>
-							<button className="btn btn-primary shop-item-button" type="button">
+							<button
+								className="btn btn-primary shop-item-button"
+								type="button"
+							>
 								ADD TO CART
 							</button>
 							{/* 
@@ -488,7 +594,11 @@ const Store = () => {
 										{/* <!-- Modal Header --> */}
 										<div className="modal-header">
 											<h4 className="modal-title">Tough-Guy Special</h4>
-											<button type="button" className="close" data-dismiss="modal">
+											<button
+												type="button"
+												className="close"
+												data-dismiss="modal"
+											>
 												&times;
 											</button>
 										</div>
@@ -543,7 +653,10 @@ const Store = () => {
 							>
 								More Info
 							</button>
-							<button className="btn btn-primary shop-item-button" type="button">
+							<button
+								className="btn btn-primary shop-item-button"
+								type="button"
+							>
 								ADD TO CART
 							</button>
 							{/* 
@@ -554,7 +667,11 @@ const Store = () => {
 										{/* <!-- Modal Header --> */}
 										<div className="modal-header">
 											<h4 className="modal-title">Special Platter</h4>
-											<button type="button" className="close" data-dismiss="modal">
+											<button
+												type="button"
+												className="close"
+												data-dismiss="modal"
+											>
 												&times;
 											</button>
 										</div>
@@ -609,7 +726,10 @@ const Store = () => {
 							>
 								More Info
 							</button>
-							<button className="btn btn-primary shop-item-button" type="button">
+							<button
+								className="btn btn-primary shop-item-button"
+								type="button"
+							>
 								ADD TO CART
 							</button>
 							{/* 
@@ -620,7 +740,11 @@ const Store = () => {
 										{/* <!-- Modal Header --> */}
 										<div className="modal-header">
 											<h4 className="modal-title">Quarantine Special</h4>
-											<button type="button" className="close" data-dismiss="modal">
+											<button
+												type="button"
+												className="close"
+												data-dismiss="modal"
+											>
 												&times;
 											</button>
 										</div>
@@ -674,7 +798,10 @@ const Store = () => {
 							>
 								More Info
 							</button>
-							<button className="btn btn-primary shop-item-button" type="button">
+							<button
+								className="btn btn-primary shop-item-button"
+								type="button"
+							>
 								ADD TO CART
 							</button>
 							{/* 
@@ -685,7 +812,11 @@ const Store = () => {
 										{/* <!-- Modal Header --> */}
 										<div className="modal-header">
 											<h4 className="modal-title">Mighty-Meatiness</h4>
-											<button type="button" className="close" data-dismiss="modal">
+											<button
+												type="button"
+												className="close"
+												data-dismiss="modal"
+											>
 												&times;
 											</button>
 										</div>
@@ -739,7 +870,10 @@ const Store = () => {
 							>
 								More Info
 							</button>
-							<button className="btn btn-primary shop-item-button" type="button">
+							<button
+								className="btn btn-primary shop-item-button"
+								type="button"
+							>
 								ADD TO CART
 							</button>
 							{/* 
@@ -750,7 +884,11 @@ const Store = () => {
 										{/* <!-- Modal Header --> */}
 										<div className="modal-header">
 											<h4 className="modal-title">Smash</h4>
-											<button type="button" className="close" data-dismiss="modal">
+											<button
+												type="button"
+												className="close"
+												data-dismiss="modal"
+											>
 												&times;
 											</button>
 										</div>
@@ -793,7 +931,9 @@ const Store = () => {
 				<div className="cart-row">
 					<span className="cart-item cart-header cart-column">ITEM</span>
 					<span className="cart-price cart-header cart-column">PRICE</span>
-					<span className="cart-quantity cart-header cart-column">QUANTITY</span>
+					<span className="cart-quantity cart-header cart-column">
+						QUANTITY
+					</span>
 				</div>
 				<div className="cart-items"></div>
 				<div className="cart-total">
