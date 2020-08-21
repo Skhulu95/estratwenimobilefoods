@@ -3,7 +3,8 @@ import React from 'react';
 
 const Reviews = () => {
     return (
-			<section id="reviews" className="py-5">
+		<section id="reviews" className="py-5">
+			<br></br>
 				<h1 className="text-uppercase display-4">REVIEWS</h1>
 				<div id="slider" className="carousel slide" data-ride="carousel">
 					<div className="carousel-inner">

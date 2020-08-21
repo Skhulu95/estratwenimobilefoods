@@ -8,33 +8,7 @@ const About = () => {
 				{/*<!-- about  --> */}
 				<section id="about" className="py-5">
 					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<div className="container">
+					<div className="about-container">
 						<div className="row">
 							<div className="col-md-6 my-4">
 								<h1 className="text-uppercase display-3">about us</h1>

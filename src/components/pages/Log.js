@@ -1,5 +1,4 @@
 import React from "react";
-import "../App.scss";
 import { Login, Register } from "../login";
 
 class Log extends React.Component {
@@ -36,6 +35,8 @@ class Log extends React.Component {
 		const currentActive = isLogginActive ? "login" : "register";
 		return (
 			<div className="Log">
+				<br></br>
+				<br></br>
 				<div className="login">
 					<div className="container" ref={(ref) => (this.container = ref)}>
 						{isLogginActive && (

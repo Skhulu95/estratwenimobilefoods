@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   font-family: 'Special Elite', cursive;
 }
 
@@ -326,10 +325,11 @@ info a:hover {
 		),
 		url(./components/img/itembackground_2.jpg) center/cover fixed no-repeat;
 }
-/* #about .text {
-    background: #e77728;
-    border-color: #e77728;
-} */
+
+
+ #about .text {
+	 text-align: right;
+} 
 .about-image:hover {
 	outline: 10px solid #e77728;
 	outline-offset: 0.8rem;
@@ -434,6 +434,7 @@ info a:hover {
 		url(./components/img/logo.jpg) center/cover fixed no-repeat;
 }
 
+
 #footer {
    left: 0;
    bottom: 0;
@@ -473,6 +474,7 @@ info a:hover {
 		),
 		url(./components/img/itembackground_2.jpg) center/cover fixed no-repeat;
 }
+
 
 img { max-width: 100%; height: auto; }
 

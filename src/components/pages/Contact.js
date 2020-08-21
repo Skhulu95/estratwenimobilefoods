@@ -8,11 +8,8 @@ const Contact = () => {
 				<section id="contact">
 					<br></br>
 					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<br></br>
-					<div className="container-fluid no-padding">
+					
+					<div className="contact-container">
 						<div className="row">
 							<div className="col-md-6 my-3">
 								<div className="embed-responsive embed-responsive-21by9 height-60">

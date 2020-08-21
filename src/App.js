@@ -25,8 +25,8 @@ class App extends React.Component {
 		return (
 			<div className="App">
 				<div>
-					<Header />
 					<Router>
+						<Header />
 						<Switch>
 							<Route exact path="/" component={Navbar} />
 							<Route path="/Log" component={Log} />
@@ -34,10 +34,10 @@ class App extends React.Component {
 							<Route path="/reviews" component={Reviews} />
 							<Route path="/team" component={Team} />
 							<Route path="/contact" component={Contact} />
-							<Route path="/store" target="_blank" component={Store} />
+							<Route path="/store" component={Store} />
 						</Switch>
+						<Footer />
 					</Router>
-					<Footer />
 				</div>
 			</div>
 		);

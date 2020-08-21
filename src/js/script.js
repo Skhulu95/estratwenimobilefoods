@@ -20,18 +20,18 @@ $(document).ready(function () {
          }
      });
 
-    // // back to top
-    // $(window).scroll(function () {
-    //     let position = $(this).scrollTop();
+     // back to top
+     $(window).scroll(function () {
+         let position = $(this).scrollTop();
 
-    //     if (position >= 720) {
-    //         $('#back-to-top').addclassName('scrollTop');
+         if (position >= 720) {
+             $('#back-to-top').addclassName('scrollTop');
            
-    //     }
-    //     else {
-    //         $('#back-to-top').removeclassName('scrollTop');
-    //     }
-    // });
+         }
+         else {
+             $('#back-to-top').removeclassName('scrollTop');
+         }
+     });
 
     //ripples
     $("#header, .info").ripples({

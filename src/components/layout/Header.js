@@ -3,6 +3,7 @@ import React from 'react';
 const Header = () => {
 	return (
 		<div className="container-fluid info p-3" id="top-icons">
+			<br></br>
 			<div className="fixed-top">
 				{/* <!-- navbar --> */}
 				<nav className="navbar navbar-expand-lg">

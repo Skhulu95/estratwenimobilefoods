@@ -29,11 +29,14 @@ function ready() {
 }
 
 function purchaseClicked() {
-	alert("Thank you for your purchase.\nYour reference number is: " +
-			Math.random() * 1000000000000000000);
+	
 	var cartItems = document.getElementsByClassName('cart-items')[0];
 	while (cartItems.hasChildNodes()) {
 		cartItems.removeChild(cartItems.firstChild);
+		alert(
+			"Thank you for your purchase.\nYour reference number is: " +
+				Math.random() * 1000000000000000000
+		);
 	}
 	updateCartTotal();
 }
