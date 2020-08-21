@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "./App.css";
 import "./js/store.js";
 import "./styles.css";
@@ -17,7 +17,6 @@ import {
 	BrowserRouter as Router,
 	Route,
 	Switch,
-	Redirect,
 } from "react-router-dom";
 
 class App extends React.Component {
