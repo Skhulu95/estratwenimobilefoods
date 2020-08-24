@@ -33,12 +33,13 @@ function purchaseClicked() {
 	var cartItems = document.getElementsByClassName('cart-items')[0];
 	while (cartItems.hasChildNodes()) {
 		cartItems.removeChild(cartItems.firstChild);
-		alert(
+		
+	}
+	updateCartTotal();
+	alert(
 			"Thank you for your purchase.\nYour reference number is: " +
 				Math.random() * 1000000000000000000
 		);
-	}
-	updateCartTotal();
 }
 
 function removeCartItem(event) {
