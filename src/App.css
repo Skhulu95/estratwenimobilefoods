@@ -362,7 +362,7 @@ info a:hover {
 /* team */
 #team {
 	background: linear-gradient(
-			rgba(255, 255, 255, 0.7),
+			rgba(255, 255, 255, 0.9),
 			rgba(255, 255, 255, 0.7)
 		),
 		url(./components/img/itembackground_2.jpg) center/cover fixed no-repeat;
@@ -428,7 +428,7 @@ info a:hover {
 
 #contact {
 	background: linear-gradient(
-			rgba(255, 255, 255, 0.7),
+			rgba(255, 255, 255, 0.9),
 			rgba(255, 255, 255, 0.7)
 		),
 		url(./components/img/logo.jpg) center/cover fixed no-repeat;
