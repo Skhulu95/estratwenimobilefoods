@@ -52,7 +52,7 @@ const Navbar = () => {
 										<small className="color-color"> mobile foods</small>
 									</h1>
 									<a
-										href="/store"
+										href="#store"
 										className="btn main-btn estratweni-btn my-4 text-capitalize"
 									>
 										order online
@@ -62,7 +62,7 @@ const Navbar = () => {
 						</div>
 					</div>
 
-					<a href="/store" className="btn header-link primary-color">
+					<a href="#store" className="btn header-link primary-color">
 						<i className="fas fa-arrow-down"></i>
 					</a>
 				</header>
