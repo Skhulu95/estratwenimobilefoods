@@ -344,7 +344,7 @@ info a:hover {
 /* review */
 #reviews {
 	background: linear-gradient(
-			rgba(255, 255, 255, 0.7),
+			rgba(255, 255, 255, 0.0),
 			rgba(255, 255, 255, 0.7)
 		),
 		url(./components/img/itembackground_2.jpg) center/cover fixed no-repeat;

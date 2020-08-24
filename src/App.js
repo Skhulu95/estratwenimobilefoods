@@ -26,6 +26,11 @@ class App extends React.Component {
 				<div>
 					<div className="App">
 						<Fragment>
+							<Router>
+								<Switch>
+									<Route path="/Log" component={Log} />
+								</Switch>
+							</Router>
 							<Header />
 							<Navbar />
 							<About />
@@ -33,13 +38,10 @@ class App extends React.Component {
 							<Team />
 							<Contact />
 							<Store />
-							<Switch>
-								<Route path="/Log" component={Log} />
-							</Switch>
+
 							<Footer />
 						</Fragment>
 					</div>
-					
 				</div>
 			</div>
 		);
