@@ -6,6 +6,9 @@ const Team = () => {
 			<div>
 				{/* <!-- team --> */}
 				<section id="team" className="py-5">
+					
+					<br></br>
+					<br></br>
 					<br></br>
 					<h1 className="text-uppercase display-4">our team</h1>
 					<div className="container">

@@ -33,32 +33,32 @@ const Header = () => {
 					<div className="collapse navbar-collapse" id="myNavbar">
 						<ul className="navbar-nav mx-auto">
 							<li className="nav-item">
-								<a href="/about" className="nav-link text-capitalize">
+								<a href="#about" className="nav-link text-capitalize">
 									about
 								</a>
 							</li>
 
 							<li className="nav-item">
-								<a href="/reviews" className="nav-link text-capitalize">
+								<a href="#reviews" className="nav-link text-capitalize">
 									reviews
 								</a>
 							</li>
 
 							<li className="nav-item">
-								<a href="/team" className="nav-link text-capitalize">
+								<a href="#team" className="nav-link text-capitalize">
 									team
 								</a>
 							</li>
 
 							<li className="nav-item">
-								<a href="/contact" className="nav-link text-capitalize">
+								<a href="#contact" className="nav-link text-capitalize">
 									contact
 								</a>
 							</li>
 						</ul>
 
 						<form className="form-inline d-none d-lg-block mr-5">
-							<a href="/store">
+							<a href="#store">
 								<button
 									className="btn nav-btn text-capitalize"
 									href="#store"

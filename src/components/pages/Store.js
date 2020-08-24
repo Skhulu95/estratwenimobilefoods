@@ -11,6 +11,9 @@ const Store = () => {
 				<br></br>
 				<br></br>
 				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
 				<h2 className="section-header">MENU</h2>
 				<div className="shop-items">
 					<div className="shop-item">
