@@ -38,7 +38,7 @@ function purchaseClicked() {
 	updateCartTotal();
 	alert(
 			"Thank you for your purchase.\nYour reference number is: " +
-				Math.random() * 1000000000000000000 +
+				Math.random() * 1000000000000000000 + <br/>
 		" Give your REF# to the cashier for payment"
 		);
 }
