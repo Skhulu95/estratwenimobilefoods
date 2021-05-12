@@ -10,8 +10,6 @@ import Contact from "./components/pages/Contact";
 import Store from "./components/pages/Store";
 import Team from "./components/pages/Team";
 import Reviews from "./components/pages/Reviews";
-import "./components/pages/Log";
-import Log from "./components/pages/Log";
 
 import {
 	BrowserRouter as Router,
@@ -28,11 +26,6 @@ class App extends React.Component {
 				<div>
 					<div className="App">
 						<Fragment>
-							<Router>
-								<Switch>
-									<Route path="/Log" component={Log} />
-								</Switch>
-							</Router>
 							<Header />
 							<Navbar />
 							<About />
