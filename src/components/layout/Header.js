@@ -68,26 +68,7 @@ const Header = () => {
 								</button>
 							</a>
 						</form>
-						<div className="flex-box" id="login">
-							{/* <a href="/Log">
-								<button
-									className="btn nav-btn text-capitalize"
-									href="#"
-									type="button"
-								>
-									register
-								</button>
-							</a> */}
-							<a href="/Log">
-								<button
-									className="btn nav-btn text-capitalize"
-									href="#"
-									type="button"
-								>
-									login
-								</button>
-							</a>
-						</div>
+						
 					</div>
 				</nav>
 			</div>
