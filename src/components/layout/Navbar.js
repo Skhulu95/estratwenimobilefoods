@@ -1,6 +1,4 @@
 import React from 'react';
-import "../login/login";
-import "../login/register";
 
 const Navbar = () => {
     return (
