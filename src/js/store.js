@@ -37,9 +37,9 @@ function purchaseClicked() {
 	}
 	updateCartTotal();
 	alert(
-			"Thank you for your purchase.\nYour reference number is: " +
-				Math.random() * 1000000000000000000 + <br/>
-		" Give your REF# to the cashier for payment"
+			"THIS PAGE IS NOT ACTIVE " //+
+				//Math.random() * 1000000000000000000 + <br/>
+		//" Give your REF# to the cashier for payment"
 		);
 }
 
